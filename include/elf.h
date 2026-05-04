@@ -3437,6 +3437,19 @@ enum
 #define R_LARCH_TLS_GD_PCREL20_S2           125
 #define R_LARCH_TLS_DESC_PCREL20_S2         126
 
+#define R_MY66000_NONE        0
+#define R_MY66000_PCREL8_S2   1
+#define R_MY66000_PCREL16_S2  2
+#define R_MY66000_PCREL26_S2  3
+#define R_MY66000_PCREL32_S2  4
+#define R_MY66000_PCREL64_S2  5
+#define R_MY66000_8           6
+#define R_MY66000_16          7
+#define R_MY66000_32          8
+#define R_MY66000_64          9
+#define R_MY66000_PCREL32    10
+#define R_MY66000_PCREL64    11
+
 #ifdef __cplusplus
 }
 #endif
